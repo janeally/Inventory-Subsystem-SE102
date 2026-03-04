@@ -1,5 +1,5 @@
-from product import Product
-from validator import StockValidator
+from .product import Product
+from .validator import StockValidator
 
 class InventoryManager:
     def process_transaction(self, product, amount):

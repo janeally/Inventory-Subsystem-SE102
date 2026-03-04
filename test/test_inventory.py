@@ -1,6 +1,6 @@
-import pytest
-from product import Product
-from inventory_manager import InventoryManager
+from src.product import Product
+from src.inventory_manager import InventoryManager
+from src.validator import StockValidator
 
 def test_successful_sale():
     p = Product("001", "Widget", 10)
