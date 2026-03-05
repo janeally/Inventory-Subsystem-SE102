@@ -1,5 +1,6 @@
 import tkinter as tk
 from tkinter import messagebox
+
 from product import Product
 from inventory_manager import InventoryManager
 
